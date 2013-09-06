@@ -1,0 +1,3 @@
+#!/bin/bash
+ 
+antlr4 SemanticIntegration.g4 && javac SemanticIntegration*.java && grun SemanticIntegration descricao -gui
