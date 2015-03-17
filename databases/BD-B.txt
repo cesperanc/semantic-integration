@@ -1,0 +1,459 @@
+Leite Cabra 
+Leite Ovelha 
+Leite Vaca gordo
+Leite Vaca magro
+Leite Vaca meio gordo
+Leite Vaca achocolatado meio gordo
+Leite Vaca UHT gordo
+Leite Vaca UHT magro
+Leite Vaca UHT meio gordo
+Leite Vaca Condensado
+Leite Vaca em pó gordo
+Leite Vaca em pó magro
+Leite Vaca em pó meio gordo
+Queijo Alcobaça
+Queijo Alverca curado
+Queijo Alverca fresco
+Queijo Azeitão
+Queijo "Camembert" Nacional
+Queijo Creme para barrar
+Queijo "Emmental"
+Queijo Évora
+Queijo Flamengo 30% gordura
+Queijo Flamengo 45% gordura
+Queijo fresco açucarado com sabor a fruta
+Queijo Fundido 40% gordura
+Queijo Ilha
+Queijo Parmesão
+Queijo "Quark" açucarado magro com sabor a fruta
+Queijo "Quark" natural magro
+Queijo "Quark" natural meio gordo
+Queijo "Roquefort"
+Queijo Serra curado
+Queijo Serra fresco
+Queijo Serpa
+Iogurte Natural sólido magro
+Iogurte Natural sólido meio gordo
+Iogurte Açucarado gordo com fruta
+Iogurte Açucarado gordo com cereais e fruta
+Iogurte Açucarado meio gordo
+Iogurte Açucarado meio gordo com fruta
+Iogurte Açucarado líquido meio gordo
+Iogurte Aromatizado açucarado gordo
+Iogurte Aromatizado açucarado meio gordo
+Iogurte Aromatizado açucarado líquido magro
+Iogurte Aromatizado açucarado líquido meio gordo
+Iogurte Aromatizado açucarado sólido magro
+Iogurte Aromatizado açucarado sólido meio gordo
+Gelado de leite
+Borrego, Costeleta ou Perna assada
+Borrego, Costeleta ou Perna cozida
+Borrego, Costeleta ou Perna estufada
+Borrego, Costeleta ou Perna frita
+Borrego, Costeleta ou Perna grelhada
+Cabrito Costeleta grelhada
+Cabrito Peito 
+Cabrito Peito estufado
+Cabrito Peito grelhado
+Cabrito Perna assada
+Caldeirada de cabrito
+Carneiro Costeleta ou Perna frita
+Carneiro Pá assada
+Carneiro Pá assada
+Carneiro Pá cozida
+Carneiro Pá estufada
+Carneiro Peito gordo 
+Carneiro Peito gordo cozido
+Carneiro Perna gorda assada
+Carneiro Perna gorda estufada
+Carneiro Perna magra assada
+Carneiro Perna magra assada
+Carneiro Perna magra estufada
+Porco Costeleta grelhada
+Porco Costeleta estufada
+Porco Costeleta panada
+Porco Entrecosto 
+Porco Entrecosto cozido
+Porco Entrecosto estufado
+Porco Entrecosto grelhado
+Porco Lombo assado
+Porco Lombo frito
+Porco Lombo grelhado
+Porco Lombo panado
+Porco Perna assada
+Porco Perna grelhada
+Porco Perna estufada
+Porco Perna grelhada
+Porco Toucinho entremeado fresco 
+Porco Toucinho entremeado
+Vaca Bife 
+Vaca Bife frito
+Vaca Bife grelhado
+Vaca Lombo assado
+Vitela Costeleta frita
+Vitela Costeleta grelhada
+Vitela Lombo assado
+Vitela Lombo frito
+Vitela Lombo grelhado
+Vitela Peito cozido
+Vitela Peito estufado
+Hamburger de porco, frito
+Hamburger de porco, grelhado
+Hamburger de vaca
+Hamburger de vaca, grelhado
+Almôndega cozinhada
+Chamuça
+Croquete
+Empada
+Pastel folhado
+Rissol
+Coração de porco, estufado
+Coração de vaca, cozido
+Coração de vaca, estufado
+Fígado de porco, frito
+Fígado de porco, grelhado
+Fígado de vaca, frito
+Fígado de vitela, frito
+Fígado de vitela, grelhado
+Pasta de fígado de porco (paté)
+Fígado, Paté caseiro de aves
+Língua de vaca, estufada
+Rim de carneiro, frito
+Rim de porco, frito
+Alheira cozida
+Alheira grelhada
+Bacon
+Bacon grelhado
+Chouriço de carne de porco
+Chouriço de sangue 
+Chouriço de sangue cozido
+Farinheira cozida
+Fiambre
+Linguiça
+Morcela grelhada
+Mortadela
+Paio de lombo
+Paio de lombo entremeado
+Presunto
+Salame
+Salpicão
+Salsicha fresca estufada
+Salsicha tipo Frankfurt
+Salsicha tipo Frankfurt frita
+Salsicha tipo Frankfurt grelhada
+Codorniz estufada 
+Codorniz grelhada
+Coelho estufado
+Frango assado
+Frango cozido
+Frango estufado
+Frango grelhado
+Frango Peito 
+Frango Peito cozido
+Frango Peito estufado
+Frango, Perna cozida
+Frango, Perna estufada
+Pato assado
+Pato estufado
+Perdiz estufada
+Peru Inteiro 
+Peru Peito 
+Peru Peito estufado
+Peru Peito assado
+Peru Peito panado
+Peru Perna assada
+Peru Perna estufada
+Abrótea
+Abrótea cozida
+Atum fresco 
+Atum fresco
+Atum fresco grelhado
+Atum conserva em óleo
+Bacalhau Fresco 
+Bacalhau Fresco cozido
+Bacalhau à Brás
+Bacalhau à Gomes de Sá
+Bacalhau assado no forno com azeite
+Bacalhau cozido
+Bacalhau filetes fritos
+Bacalhau grelhado
+Cação 
+Cação frito
+Carapau 
+Carapau frito
+Carapau grelhado
+Cavala cozida
+Cavala filetes, conserva
+Cherne 
+Cherne cozido
+Cherne grelhado
+Chicharro 
+Chicharro cozido
+Chicharro grelhado
+Corvina cozida
+Dourada cozida
+Dourada grelhada
+Enguia caldeirada
+Enguia frita
+Espadarte 
+Espadarte bife
+Espadarte grelhado
+Garoupa cozida
+Garoupa grelhada
+Goraz assado
+Goraz cozido
+Goraz grelhado
+Maruca cozida
+Pargo legítimo 
+Pargo legítimo assado
+Pargo legítimo cozido
+Pargo mulato 
+Pargo mulato assado
+Pargo mulato cozido
+Peixe-espada-branco 
+Peixe-espada-branco frito
+Peixe-espada-branco grelhado
+Peixe-espada-preto 
+Peixe-espada-preto frito
+Peixe-espada-preto grelhado
+Pescada frita
+Pescada cozida
+Pescada frita
+Robalo 
+Robalo assado
+Robalo cozido
+Robalo grelhado
+Salmão 
+Salmão cozido
+Salmão grelhado
+Sardinha frita
+Sardinha grelhada
+Solha grelhada
+Pastel de bacalhau
+Rissol de camarão
+Arroz comum 
+Arroz cozido simples
+Arroz de cenoura
+Arroz de manteiga
+Arroz de peixe
+Arroz de polvo
+Arroz de tomate
+Arroz de frango
+Esparguete 
+Esparguete cozido
+Lasanha cozida
+Pizza de queijo e tomate
+Pizza de queijo, tomate e fiambre
+Quiche Lorraine
+Pão de centeio
+Pão de centeio integral
+Pão de milho
+Pão de mistura de trigo e centeio
+Pão de trigo
+Pão de trigo integral
+Pão de leite
+Biscoitos, argolas
+Biscoitos caseiros
+Biscoitos limão
+Biscoitos, línguas de gato
+Biscoitos, línguas de veado
+Biscoitos, palitos la Reine
+Bolacha água e sal
+Bolacha aveia
+Bolacha baunilha
+Bolacha "Belga"
+Bolacha chocolate
+Bolacha "Cream cracker"
+Bolacha integral
+Bolacha manteiga
+Bolacha Maria
+Bolacha torrada
+Bolo de arroz
+Bola de Berlim sem creme
+Bolo de bolacha Maria
+Bolo de chocolate
+Bolo de coco
+Bolo ferradura
+Bolo inglês
+Bolo-Rei
+Croissant
+"Donut"
+"Donut" recheado com doce de fruta
+Éclair de chocolate
+Jesuíta
+Madalena
+Merengue
+Pastel de feijão
+Pastel de nata
+Queque
+Tarte de maçã
+Tarte de maçã e pêssego
+Torta de chocolate e chantilly
+Queijada
+Batata assada no forno
+Batata cozida
+Batata estufada
+Batata frita caseira (em palitos)
+Batata frita, de pacote (em rodelas)
+Batata, puré
+Cenoura cozida
+Cogumelos enlatados, escorridos
+Cogumelos fritos
+Pepino 
+Pimento 
+Pimento grelhado
+Rabanete 
+Tomate 
+Tomate conserva ao natural
+Ananás 
+Ananás, conserva em calda de açúcar
+Banana
+Cereja
+Cereja, cristalizada
+Clementina
+Figo
+Figo cristalizado
+Figo seco
+Kiwi
+Laranja
+Limão
+Maçã
+Maçã seca
+Maçã cozida com açúcar
+Maçã cozida sem açúcar
+Maçã assada com açúcar
+Maçã assada sem açúcar
+Manga
+Melancia
+Melão
+Meloa
+Morango
+Nectarina
+Nêspera
+Papaia
+Pêra
+Pêra cozida com açúcar
+Pêra cozida sem açúcar
+Pêra conserva em calda de açúcar
+Pêra cristalizada
+Pêssego
+Pêssego, conserva em calda de açúcar
+Tâmara seca
+Tângera
+Tangerina
+Toranja
+Uva branca
+Uva tinta
+Uva seca (passas)
+Amêndoa, miolo, com pele
+Amêndoa, miolo, torrada, sem pele
+Avelã, miolo
+Azeitona
+Noz, miolo
+Azeite
+Óleo alimentar
+Manteiga com sal
+Manteiga sem sal
+Açúcar amarelo
+Açúcar branco
+Doce Cereja
+Doce Damasco
+Doce Framboesa
+Doce Ginja
+Doce Maçã
+Doce Morango
+Doce Pêssego
+Marmelada
+Pastilha elástica
+Rebuçados
+Mel
+Chocolate em barra, culinária
+Chocolate em pó
+Chocolate de leite
+Arroz doce
+Gelado de água (sorvete)
+Gelatina preparada com ananás em conserva
+Gelatina preparada com laranja e sumo de laranja
+Leite creme
+Mousse de chocolate
+Pudim de leite e ovos
+Pudim flan caseiro
+Pudim instantâneo em pó
+Rabanada
+Sonhos
+Alcoólicas Destiladas - Aguardente
+Alcoólicas Destiladas - Brandy
+Alcoólicas Destiladas, Gin - Rum- Whisky
+Alcoólicas Destiladas, Licor de ginja
+Alcoólicas Destiladas, Licor simples
+Alcoólicas Fermentadas - Cerveja branca
+Alcoólicas Fermentadas - Cerveja preta
+Alcoólicas Fermentadas - Cerveja sem álcool
+Alcoólicas Fermentadas - Sidra (vinho de maçã)
+Alcoólicas Fermentadas - Vinho espumante Extra Bruto
+Alcoólicas Fermentadas - Vinho espumante Doce
+Alcoólicas Fermentadas - Vinho espumante Meio Seco
+Alcoólicas Fermentadas - Vinho espumante Seco
+Alcoólicas Fermentadas - Vinho generoso da Madeira
+Alcoólicas Fermentadas - Vinho generoso do Porto, doce
+Alcoólicas Fermentadas - Vinho generoso do Porto, meio seco
+Alcoólicas Fermentadas - Vinho generoso do Porto, seco
+Alcoólicas Fermentadas - Vinho maduro branco
+Alcoólicas Fermentadas - Vinho maduro palhete
+Alcoólicas Fermentadas - Vinho maduro tinto
+Alcoólicas Fermentadas - Vinho rosé
+Alcoólicas Fermentadas - Vinho verde branco
+Alcoólicas Fermentadas - Vinho verde tinto
+Não Alcoólicas, Água - Água da rede pública
+Não Alcoólicas, Água mineral natural, "Luso"
+Não Alcoólicas, Água mineral natural gasocarbónica, "Pedras Salgadas"
+Não Alcoólicas, Água mineral natural gaseificada, "Pizões-Moura"
+Não Alcoólicas, Água mineral natural gaseificada, "Vimeiro"
+Não Alcoólicas, Bebida Refrigerante cola
+Não Alcoólicas, Bebida Refrigerante cola light
+Não Alcoólicas, Bebida Refrigerante gasosa
+Não Alcoólicas, Bebida Refrigerante de laranja
+Não Alcoólicas, Café (Infusão) - bica
+Não Alcoólicas, Café Infusão - carioca
+Não Alcoólicas, Café solúvel (pó) com cafeína
+Não Alcoólicas, Café solúvel (pó) descafeinado
+Não Alcoólicas, Chá, infusão, preto
+Não Alcoólicas, Chá, infusão, verde
+Não Alcoólicas, Chá, infusão, de ervas
+Não Alcoólicas, Néctar alperce
+Não Alcoólicas, Néctar ananás
+Não Alcoólicas, Néctar laranja
+Não Alcoólicas, Néctar maçã
+Não Alcoólicas, Néctar pêra
+Não Alcoólicas, Néctar pêssego
+Não Alcoólicas, Néctar "tutti - frutti"
+Não Alcoólicas, Néctar "light" maçã
+Não Alcoólicas, Néctar "light" pêssego
+Não Alcoólicas, Sumo de frutos 100%, ananás
+Não Alcoólicas, Sumo de frutos 100%, laranja 
+Não Alcoólicas, Sumo de frutos 100%, maçã
+Não Alcoólicas, Sumo de frutos 100%, pêssego
+Não Alcoólicas, Sumo de frutos 100%, tomate
+Não Alcoólicas, Sumo de frutos concentrado, ananás
+Não Alcoólicas, Sumo de frutos concentrado, laranja
+Não Alcoólicas, Sumo fresco de limão
+Sopa abóbora
+Sopa agrião
+Sopa à lavrador
+Sopa, caldo verde
+Sopa, canja de galinha
+Sopa cebola
+Sopa couve branca
+Sopa couve lombarda
+Sopa, creme de cenoura
+Sopa de cozido
+Sopa ervilhas
+Sopa espinafres
+Sopa favas
+Sopa feijão verde
+Sopa grão com espinafres
+Sopa juliana
+Sopa peixe com massa
+Sopa, puré de feijão
+Sopa, puré de vegetais
+

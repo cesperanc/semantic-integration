@@ -1,0 +1,920 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dmps/ontologies/2013/5/untitled-ontology-5"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/dmps/ontologies/2013/5/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Apresentacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bebida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_ACUCARADOS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_AZEITES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_BEBIDAS_ALCOOLICAS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_BEBIDAS_COMCAFEINA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_BEBIDAS_NAOALCOOLICAS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_BEBIDAS_REFRIGERANTES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_CARNE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_CARNE_TRANSFORMADO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_CEREAIS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_CHOCOLATES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_CONDIMENTO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_ERVAAROMATICA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_FRUTA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_GORDURAS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_HORTICOLAS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_LACTEOS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_LEGUMINOSAS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_MOLHOS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_OVOS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_PESCADO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_SOBREMESAS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_SOPAS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLASSE_TODASASCLASSES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carateristica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cerveja"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consumo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Copo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Embalagem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Extrinseca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garrafa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrandezaLiquida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrandezaSolida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrandezaUnitaria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intrinseca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NOME_RECEITA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PALAVRA_DESCONHECIDA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PRODUTO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PRODUTO_DESCONHECIDO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pacote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plastico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refrigerante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sabor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salgado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sumo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnidadeDeMedida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vidro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vinho"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADESSEMPRODUTOS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_ANO"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_ANOS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_APRESENTACAO"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_BEBIDAS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_CLASSIFICACAODIETETICA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_CONCENTRACAO"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_CONFECAO"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_COR"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_CORTE"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_DESCONHECIDA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_EMBALAGEM"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_ESTADOFISICO"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_GEOMETRIA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_GERAL"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_GRANDEZALIQUIDA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_GRANDEZASOLIDA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_GRANDEZAUNITARIA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_MARCA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_PARTEDEANIMAL"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_PARTEDEPRODUTO"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PROPRIEDADE_TAMANHO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#abatanado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#achocolatado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#agua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#atum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#azeite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#banha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#branco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cacau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cafe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#capuccino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chocolate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#descafeinado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#desconhecido"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#galao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gelado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gelatina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#leite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#liquido"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#maca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#manteiga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#margarina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mousse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#omelete"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ovos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#preto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pudim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sumo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tinto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#verde"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vinho"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Apresentacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_APRESENTACAO"/>
+            <Class IRI="#Apresentacao"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bebida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_BEBIDAS"/>
+            <Class IRI="#Bebida"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Copo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_GRANDEZALIQUIDA"/>
+            <Class IRI="#Copo"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Embalagem"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_EMBALAGEM"/>
+            <Class IRI="#Embalagem"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GrandezaLiquida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_GRANDEZALIQUIDA"/>
+            <Class IRI="#GrandezaLiquida"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GrandezaSolida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_GRANDEZASOLIDA"/>
+            <Class IRI="#GrandezaSolida"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GrandezaUnitaria"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_GRANDEZAUNITARIA"/>
+            <Class IRI="#GrandezaUnitaria"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Pacote"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_GRANDEZASOLIDA"/>
+            <Class IRI="#Pacote"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Apresentacao"/>
+        <Class IRI="#Extrinseca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apresentacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_TAMANHO"/>
+            <Class IRI="#Apresentacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bebida"/>
+        <Class IRI="#Consumo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bebida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_ESTADOFISICO"/>
+            <Class IRI="#Bebida"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_ACUCARADOS"/>
+        <Class IRI="#Doce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_AZEITES"/>
+        <Class IRI="#CLASSE_CONDIMENTO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_BEBIDAS_ALCOOLICAS"/>
+        <Class IRI="#Bebida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_BEBIDAS_COMCAFEINA"/>
+        <Class IRI="#Bebida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_BEBIDAS_NAOALCOOLICAS"/>
+        <Class IRI="#Bebida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_BEBIDAS_REFRIGERANTES"/>
+        <Class IRI="#CLASSE_BEBIDAS_NAOALCOOLICAS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_CARNE"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_CARNE"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_CONFECAO"/>
+            <Class IRI="#CLASSE_CARNE"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_CARNE"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_PARTEDEANIMAL"/>
+            <Class IRI="#CLASSE_CARNE"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_CARNE_TRANSFORMADO"/>
+        <Class IRI="#CLASSE_CARNE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_CEREAIS"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_CHOCOLATES"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_CHOCOLATES"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_GEOMETRIA"/>
+            <Class IRI="#CLASSE_CHOCOLATES"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_CONDIMENTO"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_ERVAAROMATICA"/>
+        <Class IRI="#CLASSE_CONDIMENTO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_FRUTA"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_GORDURAS"/>
+        <Class IRI="#CLASSE_TODASASCLASSES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_HORTICOLAS"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_LACTEOS"/>
+        <Class IRI="#Consumo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_LACTEOS"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_CLASSIFICACAODIETETICA"/>
+            <Class IRI="#CLASSE_LACTEOS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_LEGUMINOSAS"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_MOLHOS"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_OVOS"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_PESCADO"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_PESCADO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_CONFECAO"/>
+            <Class IRI="#CLASSE_PESCADO"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_PESCADO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_PARTEDEANIMAL"/>
+            <Class IRI="#CLASSE_PESCADO"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_SOBREMESAS"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLASSE_SOPAS"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cerveja"/>
+        <Class IRI="#CLASSE_BEBIDAS_ALCOOLICAS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comida"/>
+        <Class IRI="#Consumo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consumo"/>
+        <Class IRI="#CLASSE_TODASASCLASSES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Copo"/>
+        <Class IRI="#Apresentacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cor"/>
+        <Class IRI="#Intrinseca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doce"/>
+        <Class IRI="#Sabor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Embalagem"/>
+        <Class IRI="#Apresentacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Extrinseca"/>
+        <Class IRI="#Carateristica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garrafa"/>
+        <Class IRI="#Embalagem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrandezaLiquida"/>
+        <Class IRI="#UnidadeDeMedida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrandezaLiquida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_CONCENTRACAO"/>
+            <Class IRI="#GrandezaLiquida"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrandezaSolida"/>
+        <Class IRI="#UnidadeDeMedida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrandezaUnitaria"/>
+        <Class IRI="#UnidadeDeMedida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intrinseca"/>
+        <Class IRI="#Carateristica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lata"/>
+        <Class IRI="#Embalagem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marca"/>
+        <Class IRI="#Extrinseca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NOME_RECEITA"/>
+        <Class IRI="#Comida"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PALAVRA_DESCONHECIDA"/>
+        <Class IRI="#CLASSE_TODASASCLASSES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PRODUTO"/>
+        <Class IRI="#CLASSE_TODASASCLASSES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PRODUTO_DESCONHECIDO"/>
+        <Class IRI="#CLASSE_TODASASCLASSES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pacote"/>
+        <Class IRI="#Embalagem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plastico"/>
+        <Class IRI="#Garrafa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refrigerante"/>
+        <Class IRI="#CLASSE_BEBIDAS_REFRIGERANTES"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sabor"/>
+        <Class IRI="#Intrinseca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salgado"/>
+        <Class IRI="#Sabor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sumo"/>
+        <Class IRI="#CLASSE_BEBIDAS_NAOALCOOLICAS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnidadeDeMedida"/>
+        <Class IRI="#Extrinseca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vidro"/>
+        <Class IRI="#Garrafa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vinho"/>
+        <Class IRI="#CLASSE_BEBIDAS_ALCOOLICAS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vinho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PROPRIEDADE_ANO"/>
+            <Class IRI="#Vinho"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Bebida"/>
+        <Class IRI="#Comida"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CLASSE_BEBIDAS_ALCOOLICAS"/>
+        <Class IRI="#CLASSE_BEBIDAS_COMCAFEINA"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CLASSE_BEBIDAS_ALCOOLICAS"/>
+        <Class IRI="#CLASSE_BEBIDAS_NAOALCOOLICAS"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CLASSE_BEBIDAS_ALCOOLICAS"/>
+        <Class IRI="#CLASSE_LACTEOS"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CLASSE_BEBIDAS_COMCAFEINA"/>
+        <Class IRI="#CLASSE_BEBIDAS_NAOALCOOLICAS"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CLASSE_BEBIDAS_COMCAFEINA"/>
+        <Class IRI="#CLASSE_LACTEOS"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CLASSE_CARNE"/>
+        <Class IRI="#CLASSE_PESCADO"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cerveja"/>
+        <Class IRI="#Refrigerante"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cerveja"/>
+        <Class IRI="#Sumo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cerveja"/>
+        <Class IRI="#Vinho"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Doce"/>
+        <Class IRI="#Salgado"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lata"/>
+        <Class IRI="#Pacote"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Refrigerante"/>
+        <Class IRI="#Vinho"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Sumo"/>
+        <Class IRI="#Vinho"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_BEBIDAS_COMCAFEINA"/>
+        <NamedIndividual IRI="#abatanado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_CHOCOLATES"/>
+        <NamedIndividual IRI="#achocolatado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_BEBIDAS_NAOALCOOLICAS"/>
+        <NamedIndividual IRI="#agua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_PESCADO"/>
+        <NamedIndividual IRI="#atum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_AZEITES"/>
+        <NamedIndividual IRI="#azeite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_GORDURAS"/>
+        <NamedIndividual IRI="#banha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cor"/>
+        <NamedIndividual IRI="#branco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_CHOCOLATES"/>
+        <NamedIndividual IRI="#cacau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_BEBIDAS_COMCAFEINA"/>
+        <NamedIndividual IRI="#cafe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_BEBIDAS_COMCAFEINA"/>
+        <NamedIndividual IRI="#capuccino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_BEBIDAS_NAOALCOOLICAS"/>
+        <NamedIndividual IRI="#cha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_CHOCOLATES"/>
+        <NamedIndividual IRI="#chocolate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_BEBIDAS_NAOALCOOLICAS"/>
+        <NamedIndividual IRI="#descafeinado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_BEBIDAS_COMCAFEINA"/>
+        <NamedIndividual IRI="#galao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_SOBREMESAS"/>
+        <NamedIndividual IRI="#gelado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_SOBREMESAS"/>
+        <NamedIndividual IRI="#gelatina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_LACTEOS"/>
+        <NamedIndividual IRI="#leite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bebida"/>
+        <NamedIndividual IRI="#liquido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_FRUTA"/>
+        <NamedIndividual IRI="#maca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_GORDURAS"/>
+        <NamedIndividual IRI="#manteiga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_GORDURAS"/>
+        <NamedIndividual IRI="#margarina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_SOBREMESAS"/>
+        <NamedIndividual IRI="#mousse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_OVOS"/>
+        <NamedIndividual IRI="#omelete"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_OVOS"/>
+        <NamedIndividual IRI="#ovos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_FRUTA"/>
+        <NamedIndividual IRI="#pera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cor"/>
+        <NamedIndividual IRI="#preto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_SOBREMESAS"/>
+        <NamedIndividual IRI="#pudim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CLASSE_BEBIDAS_NAOALCOOLICAS"/>
+        <NamedIndividual IRI="#sumo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cor"/>
+        <NamedIndividual IRI="#tinto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cor"/>
+        <NamedIndividual IRI="#verde"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vinho"/>
+        <NamedIndividual IRI="#vinho"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PROPRIEDADE_COR"/>
+        <NamedIndividual IRI="#desconhecido"/>
+        <NamedIndividual IRI="#tinto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PROPRIEDADE_ESTADOFISICO"/>
+        <NamedIndividual IRI="#desconhecido"/>
+        <NamedIndividual IRI="#liquido"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PROPRIEDADE_COR"/>
+        <NamedIndividual IRI="#leite"/>
+        <NamedIndividual IRI="#branco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PROPRIEDADE_ESTADOFISICO"/>
+        <NamedIndividual IRI="#leite"/>
+        <NamedIndividual IRI="#liquido"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PROPRIEDADE_COR"/>
+        <NamedIndividual IRI="#vinho"/>
+        <NamedIndividual IRI="#tinto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PROPRIEDADE_ESTADOFISICO"/>
+        <NamedIndividual IRI="#vinho"/>
+        <NamedIndividual IRI="#liquido"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#PROPRIEDADE_GRANDEZASOLIDA"/>
+        <ObjectProperty IRI="#PROPRIEDADE_GRANDEZALIQUIDA"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#PROPRIEDADE_GRANDEZALIQUIDA"/>
+        <ObjectProperty IRI="#PROPRIEDADE_GRANDEZAUNITARIA"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#PROPRIEDADE_GRANDEZASOLIDA"/>
+        <ObjectProperty IRI="#PROPRIEDADE_GRANDEZAUNITARIA"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PROPRIEDADE_BEBIDAS"/>
+        <Class IRI="#Bebida"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PROPRIEDADE_CONFECAO"/>
+        <Class IRI="#Comida"/>
+    </ObjectPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
